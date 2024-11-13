@@ -11,8 +11,9 @@ A comprehensive ETL pipeline project analyzing video game sales data.
   - Automated data extraction from Google Drive
   - Advanced data processing and cleaning
   - Dual-storage solution: DuckDB and formatted CSV
-- **Technologies:** Python, Prefect, DuckDB, Jupyter Notebook
-- **Skills Demonstrated:** Data pipeline development, data orchestration, database management
+  - Simple orchestration with Prefect
+- **Technologies:** Python, Prefect, DuckDB, wget, Jupyter Notebook
+- **Skills Demonstrated:** Data pipeline development, data orchestration, database
 
 ### 2. [School Supplies Market](https://github.com/victor-antoniassi/junior_analytics_engineer_test_01) 📚
 A data preparation project for e-commerce school supplies sales planning.
@@ -22,7 +23,7 @@ A data preparation project for e-commerce school supplies sales planning.
   - SQLite database implementation
   - Multi-table data integration
 - **Technologies:** Python, SQLite, Pandas, Google Sheets
-- **Skills Demonstrated:** Data prep, database modeling, ETL processes, business analytics
+- **Skills Demonstrated:** Data prep, database, ETL processes, business analytics
 
 ## 💡 Code Snippets & Practice Projects
 Smaller-scale projects and code examples showcasing specific technical skills and tools implementation.
@@ -30,12 +31,10 @@ Smaller-scale projects and code examples showcasing specific technical skills an
 ### 1. [Cryptocurrencies Quotes](https://github.com/victor-antoniassi/coinmarketcap_api_to_duckdb) 💰
 A streamlined EL pipeline for cryptocurrency price tracking.
 - **Key Features:**
-  - Real-time data extraction from CoinMarketCap API
   - Automated data structuring and loading
-  - DuckDB integration
   - Logging system implementation
-- **Technologies:** Python, dlt, DuckDB, APIs
-- **Skills Demonstrated:** API integration, data pipeline development, database management
+- **Technologies:** Python, dlt, DuckDB, API
+- **Skills Demonstrated:** API integration, data pipeline development, database
 
 ---
 *This portfolio is actively maintained and updated with new projects and improvements.*
