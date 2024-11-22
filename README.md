@@ -6,7 +6,7 @@ Welcome to my data portfolio! I'm a data professional with experience in buildin
 Projects developed as part of technical assessment processes, demonstrating comprehensive problem-solving abilities and technical skills.
 
 ### 1. [Video Game Sales](https://github.com/victor-antoniassi/junior_data_analyst_test_01) 🎮
-*Data Analyst position at a food delivery platform*
+*Data Analyst position at a food delivery platform, developed in September 2024*
 
 A comprehensive ETL pipeline project analyzing video game sales data.
 - **Key Features:**
@@ -18,7 +18,7 @@ A comprehensive ETL pipeline project analyzing video game sales data.
 - **Skills Demonstrated:** Data pipeline development, data orchestration, database
 
 ### 2. [School Supplies Market](https://github.com/victor-antoniassi/junior_analytics_engineer_test_01)📚
-*Analytics Engineer position at a Brazilian e-commerce company*
+*Analytics Engineer position at a Brazilian e-commerce company, developed in March 2024*
 
 A data preparation project for e-commerce school supplies sales planning.
 - **Key Features:**
