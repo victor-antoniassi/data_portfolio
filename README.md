@@ -20,14 +20,24 @@ A comprehensive ETL pipeline project analyzing video game sales data.
 ### 2. [School Supplies Market](https://github.com/victor-antoniassi/junior_analytics_engineer_test_01)📚
 *Analytics Engineer position at a Brazilian e-commerce company, developed in March 2024*
 
-A data preparation project for e-commerce school supplies sales planning.
-- **Key Features:**
-  - Data quality analysis and standardization
-  - Automated header validation system
-  - SQLite database implementation
-  - Multi-table data integration
-- **Technologies:** Python, SQLite, Pandas, Google Sheets
-- **Skills Demonstrated:** Data prep, database, ETL processes, business analytics
+A data preparation project focusing on standardizing and integrating e-commerce school supplies sales data for planning purposes.
+
+**Features**
+- Automated header validation system
+- Data quality analysis and standardization
+- SQLite database implementation
+
+**Tech Stack**
+- Python
+- SQLite
+- Pandas
+- Google Sheets
+
+**Skills Applied**
+- Data preparation and cleaning
+- Database operations
+- ETL processes
+- Business analytics
 
 ## 💡 Code Snippets & Practice Projects
 Smaller-scale projects and code examples showcasing specific technical skills and tools implementation.
