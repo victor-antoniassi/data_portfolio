@@ -27,8 +27,7 @@ A project that analyzes video game sales data to evaluate gaming partnership opp
 **Skills Applied**
 - Data preparation
 - SQL analysis
-- Market insights
-- Results visualization
+- Data workflow orchestration
 
 ### 2. [School Supplies Market](https://github.com/victor-antoniassi/junior_analytics_engineer_test_01)📚
 *Analytics Engineer position at a Brazilian e-commerce company, developed in March 2024*
