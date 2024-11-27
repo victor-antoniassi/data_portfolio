@@ -8,14 +8,27 @@ Projects developed as part of technical assessment processes, demonstrating comp
 ### 1. [Video Game Sales](https://github.com/victor-antoniassi/junior_data_analyst_test_01) 🎮
 *Data Analyst position at a food delivery platform, developed in September 2024*
 
-A comprehensive ETL pipeline project analyzing video game sales data.
-- **Key Features:**
-  - Automated data extraction from Google Drive
-  - Advanced data processing and cleaning
-  - Dual-storage solution: DuckDB and formatted CSV
-  - Simple orchestration with Prefect
-- **Technologies:** Python, Prefect, DuckDB, wget, Jupyter Notebook
-- **Skills Demonstrated:** Data pipeline development, data orchestration, database
+A project that analyzes video game sales data to evaluate gaming partnership opportunities.
+
+**Features**
+- Data preparation and cleaning
+- Regional sales analysis
+- Genre market share calculation
+- Platform performance tracking
+
+**Tech Stack**
+- Python
+- DuckDB
+- Prefect
+- Pandas
+- wget
+- Jupyter Notebook
+
+**Skills Applied**
+- Data preparation
+- SQL analysis
+- Market insights
+- Results visualization
 
 ### 2. [School Supplies Market](https://github.com/victor-antoniassi/junior_analytics_engineer_test_01)📚
 *Analytics Engineer position at a Brazilian e-commerce company, developed in March 2024*
