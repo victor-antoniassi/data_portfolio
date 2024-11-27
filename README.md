@@ -33,12 +33,23 @@ A data preparation project for e-commerce school supplies sales planning.
 Smaller-scale projects and code examples showcasing specific technical skills and tools implementation.
 
 ### 1. [Cryptocurrencies Quotes](https://github.com/victor-antoniassi/coinmarketcap_api_to_duckdb) 💰
-A streamlined EL pipeline for cryptocurrency price tracking.
-- **Key Features:**
-  - Automated data structuring and loading
-  - Logging system implementation
-- **Technologies:** Python, dlt, DuckDB, API
-- **Skills Demonstrated:** API integration, data pipeline development, database
+An EL (Extract, Load) pipeline that fetches market data (price, volume, market cap) for BTC, ETH, and LTC from CoinMarketCap API and stores it in DuckDB.
+
+**Features**
+- Automated data extraction from CoinMarketCap API
+- Error handling and logging system
+- Data storage in DuckDB database
+
+**Tech Stack**
+- Python 3.9+
+- dlt
+- DuckDB
+- CoinMarketCap API
+
+**Skills Applied**
+- API integration
+- Data pipeline development
+- SQL querying
 
 ---
 *This portfolio is actively maintained and updated with new projects and improvements.*
