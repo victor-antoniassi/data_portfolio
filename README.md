@@ -11,6 +11,7 @@ Projects developed as part of technical assessment processes, demonstrating comp
 A project that analyzes video game sales data to evaluate gaming partnership opportunities.
 
 **Features**
+- Data extraction automation
 - Data preparation and cleaning
 - Regional sales analysis
 - Genre market share calculation
@@ -25,6 +26,7 @@ A project that analyzes video game sales data to evaluate gaming partnership opp
 - Jupyter Notebook
 
 **Skills Applied**
+- Data/file extraction through HTTPS protocol
 - Data preparation
 - SQL analysis
 - Data workflow orchestration
