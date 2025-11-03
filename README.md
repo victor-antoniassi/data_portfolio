@@ -3,7 +3,7 @@
 Welcome to my data portfolio! I'm a data professional with experience in building data pipelines, data warehousing, data reporting and analytics solutions. This repository showcases some (but not all) of my knowledge in Business Intelligence, Data Analysis, and Data Engineering.
 
 ## 🚀 Latest Project
-[Chinook Sales Simulator (D-1 Data Generator)](https://github.com/victor-antoniassi/data_portfolio/edit/main/README.md#2-chinook-sales-simulator) 
+**[Chinook Sales Simulator (D-1 Data Generator)](#2-chinook-sales-simulator)**
 
 A synthetic sales data generator for the Chinook database, designed to simulate realistic daily (D-1) transactions for data engineering practice.
 
