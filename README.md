@@ -2,6 +2,11 @@
 ## 👋 About
 Welcome to my data portfolio! I'm a data professional with experience in building data pipelines, data warehousing, data reporting and analytics solutions. This repository showcases some (but not all) of my knowledge in Business Intelligence, Data Analysis, and Data Engineering.
 
+## 🚀 Latest Project
+[Chinook Sales Simulator (D-1 Data Generator)](https://github.com/victor-antoniassi/data_portfolio/edit/main/README.md#2-chinook-sales-simulator) 
+
+A synthetic sales data generator for the Chinook database, designed to simulate realistic daily (D-1) transactions for data engineering practice.
+
 ## 🗂️ Technical Assessment Projects
 Projects developed as part of technical assessment processes, demonstrating comprehensive problem-solving abilities and technical skills.
 
@@ -26,7 +31,7 @@ A project that analyzes video game sales data to evaluate gaming partnership opp
 - Jupyter Notebook
 
 **Skills Applied**
-- Data/file extraction through HTTPS protocol
+- Data/file extraction
 - Data preparation
 - SQL analysis
 - Data workflow orchestration
@@ -75,5 +80,23 @@ An EL (Extract, Load) pipeline that fetches market data (price, volume, market c
 - Data pipeline development
 - SQL querying
 
----
-*This portfolio is actively maintained and updated with new projects and improvements.*
+### 2. [Chinook Sales Simulator](https://github.com/victor-antoniassi/day-1_sales_data_generator)
+A synthetic D-1 sales data generator for the Chinook database, simulating realistic daily transactions for data engineering practice.
+
+**Features**
+- Generates D-1 (yesterday's) synthetic sales
+- Ensures data integrity via single transaction
+- Connects securely to Neon DB using `neonctl`
+- Concurrent-safe ID generation (PostgreSQL Sequences)
+
+**Tech Stack**
+- Python
+- PostgreSQL
+- Neon
+- uv
+
+**Skills Applied**
+- Data Generation
+- SQL Functions
+- System Automation
+- CLI Integration
