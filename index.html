@@ -4,31 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Portfolio</title>
-    <!-- 1. Carrega o Tailwind CSS via CDN -->
+    <!-- 1. Load Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- 2. Carrega a fonte JetBrains Mono -->
+    <!-- 2. Load JetBrains Mono font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-    <!-- 3. Adiciona a biblioteca de ícones Devicon -->
+    <!-- 3. Add Devicon icon library -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
-    <!-- 4. Aplica a fonte e as cores base do Catppuccin -->
+    <!-- 4. Apply base font and Catppuccin colors -->
     <style>
         body {
             font-family: 'JetBrains Mono', monospace;
         }
     </style>
 </head>
-<!-- Cores base do Catppuccin Mocha -->
+<!-- Catppuccin Mocha base colors -->
 <body class="bg-[#11111b] text-[#cdd6f4] antialiased">
 
-    <!-- Container Principal -->
+    <!-- Main Container -->
     <main class="container mx-auto max-w-4xl px-4 py-12 md:py-20">
 
-        <!-- Cabeçalho -->
+        <!-- Header -->
         <header class="flex flex-col md:flex-row md:items-center justify-between mb-12">
             <div>
                 <h1 class="text-4xl md:text-5xl font-bold text-[#f5c2e7]">My Data Portfolio</h1>
@@ -36,7 +36,24 @@
             </div>
         </header>
 
-        <!-- Seção "Latest Project" -->
+        <!-- "About" Section -->
+        <section class="bg-[#181825] p-8 rounded-md shadow-md mb-12">
+            <h2 class="text-3xl font-bold text-[#f5c2e7] mb-4 flex items-center">
+                <!-- Tabler Icon: user-circle -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-3 text-[#f5c2e7]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                   <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                   <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                   <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.832 2.849"></path>
+                </svg>
+                About
+            </h2>
+            <p class="text-[#cdd6f4] leading-relaxed">
+                Welcome to my data portfolio! I'm a data professional with experience in building data pipelines, data warehousing, data reporting and analytics solutions. This repository showcases some (but not all) of my knowledge in and Data Engineering, Business Intelligence and Data Analytics/Analysis.
+            </p>
+        </section>
+
+        <!-- "Latest Project" Section -->
         <section class="bg-[#181825] p-8 rounded-md shadow-md mb-12">
             <h2 class="text-3xl font-bold text-[#f5c2e7] mb-4 flex items-center">
                 <!-- Tabler Icon: rocket -->
@@ -56,24 +73,7 @@
             </p>
         </section>
 
-        <!-- Seção "About" -->
-        <section class="bg-[#181825] p-8 rounded-md shadow-md mb-12">
-            <h2 class="text-3xl font-bold text-[#f5c2e7] mb-4 flex items-center">
-                <!-- Tabler Icon: user-circle -->
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-3 text-[#f5c2e7]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                   <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
-                   <path d="M12 10m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
-                   <path d="M6.168 18.849a4 4 0 0 1 3.832 -2.849h4a4 4 0 0 1 3.832 2.849"></path>
-                </svg>
-                About
-            </h2>
-            <p class="text-[#cdd6f4] leading-relaxed">
-                Welcome to my data portfolio! I'm a data professional with experience in building data pipelines, data warehousing, data reporting and analytics solutions. This repository showcases some (but not all) of my knowledge in and Data Engineering, Business Intelligence and Data Analytics/Analysis.
-            </p>
-        </section>
-
-        <!-- Seção "Technical Assessment Projects" -->
+        <!-- "Technical Assessment Projects" Section -->
         <section class="mb-12">
             <h2 class="text-3xl font-bold text-[#f5c2e7] mb-6 flex items-center">
                 <!-- Tabler Icon: briefcase -->
@@ -89,7 +89,7 @@
             <p class="text-[#a6adc8] mb-6">Projects developed as part of technical assessment processes, demonstrating comprehensive problem-solving abilities and technical skills.</p>
             
             <div class="space-y-8">
-                <!-- Card do Projeto 1 -->
+                <!-- Project Card 1 -->
                 <article class="bg-[#181825] p-6 rounded-md shadow-md">
                     <header class="mb-4">
                         <h3 class="text-2xl font-bold text-[#89b4fa] hover:underline">
@@ -191,7 +191,7 @@
                     </div>
                 </article>
 
-                <!-- Card do Projeto 2 -->
+                <!-- Project Card 2 -->
                 <article class="bg-[#181825] p-6 rounded-md shadow-md">
                     <header class="mb-4">
                         <h3 class="text-2xl font-bold text-[#89b4fa] hover:underline">
@@ -289,7 +289,7 @@
             </div>
         </section>
 
-        <!-- Seção "Code Snippets & Practice Projects" -->
+        <!-- "Code Snippets & Practice Projects" Section -->
         <section class="mb-12">
             <h2 class="text-3xl font-bold text-[#f5c2e7] mb-6 flex items-center">
                 <!-- Tabler Icon: code-dots -->
@@ -306,7 +306,7 @@
             <p class="text-[#a6adc8] mb-6">Smaller-scale projects and code examples showcasing specific technical skills and tools implementation.</p>
 
             <div class="space-y-8">
-                <!-- Card do Projeto 1 -->
+                <!-- Project Card 1 -->
                 <article class="bg-[#181825] p-6 rounded-md shadow-md">
                     <header class="mb-4">
                         <h3 class="text-2xl font-bold text-[#89b4fa] hover:underline">
@@ -385,7 +385,7 @@
                     </div>
                 </article>
 
-                <!-- Card do Projeto 2 (NOVO) -->
+                <!-- Project Card 2 (NEW) -->
                 <article id="project-chinook-simulator" class="bg-[#181825] p-6 rounded-md shadow-md">
                     <header class="mb-4">
                         <h3 class="text-2xl font-bold text-[#89b4fa] hover:underline">
@@ -473,4 +473,3 @@
 
 </body>
 </html>
-
