@@ -36,6 +36,26 @@
             </div>
         </header>
 
+        <!-- Seção "Latest Project" -->
+        <section class="bg-[#181825] p-8 rounded-md shadow-md mb-12">
+            <h2 class="text-3xl font-bold text-[#f5c2e7] mb-4 flex items-center">
+                <!-- Tabler Icon: rocket -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-3 text-[#f5c2e7]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                   <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3"></path>
+                   <path d="M7 14a6 6 0 0 1 -3 6a6 6 0 0 1 -6 -3"></path>
+                   <path d="M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                </svg>
+                Latest Project
+            </h2>
+            <a href="#project-chinook-simulator" class="text-2xl font-bold text-[#89b4fa] hover:underline">
+                Chinook Sales Simulator (D-1 Data Generator)
+            </a>
+            <p class="text-[#cdd6f4] leading-relaxed mt-4">
+                A synthetic sales data generator for the Chinook database, designed to simulate realistic daily (D-1) transactions for data engineering practice.
+            </p>
+        </section>
+
         <!-- Seção "About" -->
         <section class="bg-[#181825] p-8 rounded-md shadow-md mb-12">
             <h2 class="text-3xl font-bold text-[#f5c2e7] mb-4 flex items-center">
@@ -286,7 +306,7 @@
             <p class="text-[#a6adc8] mb-6">Smaller-scale projects and code examples showcasing specific technical skills and tools implementation.</p>
 
             <div class="space-y-8">
-                <!-- Card do Projeto 3 -->
+                <!-- Card do Projeto 1 -->
                 <article class="bg-[#181825] p-6 rounded-md shadow-md">
                     <header class="mb-4">
                         <h3 class="text-2xl font-bold text-[#89b4fa] hover:underline">
@@ -364,6 +384,88 @@
                         </div>
                     </div>
                 </article>
+
+                <!-- Card do Projeto 2 (NOVO) -->
+                <article id="project-chinook-simulator" class="bg-[#181825] p-6 rounded-md shadow-md">
+                    <header class="mb-4">
+                        <h3 class="text-2xl font-bold text-[#89b4fa] hover:underline">
+                            <a href="https://github.com/victor-antoniassi/day-1_sales_data_generator" target="_blank">2. Chinook Sales Simulator</a>
+                        </h3>
+                    </header>
+                    <p class="text-[#cdd6f4] mb-4">A synthetic D-1 sales data generator for the Chinook database, simulating realistic daily transactions for data engineering practice.</p>
+                    
+                    <div class="mb-4">
+                        <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
+                            <!-- Tabler Icon: list-check -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                               <path d="M3.5 5.5l1.5 1.5l2.5 -2.5"></path>
+                               <path d="M3.5 11.5l1.5 1.5l2.5 -2.5"></path>
+                               <path d="M3.5 17.5l1.5 1.5l2.5 -2.5"></path>
+                               <path d="M11 6l9 0"></path>
+                               <path d="M11 12l9 0"></path>
+                               <path d="M11 18l9 0"></path>
+                            </svg>
+                            Features
+                        </h4>
+                        <ul class="list-disc list-inside text-[#cdd6f4] text-sm space-y-1">
+                            <li>Generates D-1 (yesterday's) synthetic sales</li>
+                            <li>Ensures data integrity via single transaction</li>
+                            <li>Connects securely to Neon DB using `neonctl`</li>
+                            <li>Concurrent-safe ID generation (PostgreSQL Sequences)</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-4">
+                        <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
+                            <!-- Tabler Icon: tool -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                               <path d="M7 10l-4 4l4 4l4 -4l-4 -4z"></path>
+                               <path d="M17 4l-4 4l4 4l4 -4l-4 -4z"></path>
+                               <path d="M21 10l-4 4l4 4l4 -4l-4 -4z"></path>
+                               <path d="M10 7l-4 4l4 4l4 -4l-4 -4z"></path>
+                            </svg>
+                            Tech Stack
+                        </h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="flex items-center bg-[#89b4fa]/10 text-[#89b4fa] text-xs font-bold px-3 py-1 rounded-sm">
+                                <i class="devicon-python-plain text-lg align-middle mr-1.5"></i>Python
+                            </span>
+                            <span class="flex items-center bg-[#89b4fa]/10 text-[#89b4fa] text-xs font-bold px-3 py-1 rounded-sm">
+                                <i class="devicon-postgresql-plain text-lg align-middle mr-1.5"></i>PostgreSQL
+                            </span>
+                            <span class="flex items-center bg-[#89b4fa]/10 text-[#89b4fa] text-xs font-bold px-3 py-1 rounded-sm">Neon</span>
+                            <span class="flex items-center bg-[#89b4fa]/10 text-[#89b4fa] text-xs font-bold px-3 py-1 rounded-sm">uv</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
+                            <!-- Tabler Icon: schema -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                               <path d="M5 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                               <path d="M19 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                               <path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                               <path d="M19 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                               <path d="M5 7l0 10"></path>
+                               <path d="M19 7l0 10"></path>
+                               <path d="M7 5l10 0"></path>
+                               <path d="M7 19l10 0"></path>
+                               <path d="M9 12l0 2.5m2 0l0 2.5m2 0l0 -2.5m-2 -2.5l0 -2.5m-2 0l-2 0m6 0l2 0"></path>
+                            </svg>
+                            Skills Applied
+                        </h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-[#a6e3a1]/10 text-[#a6e3a1] text-xs font-bold px-3 py-1 rounded-sm">Data Generation</span>
+                            <span class="bg-[#a6e3a1]/10 text-[#a6e3a1] text-xs font-bold px-3 py-1 rounded-sm">SQL Functions</span>
+                            <span class="bg-[#a6e3a1]/10 text-[#a6e3a1] text-xs font-bold px-3 py-1 rounded-sm">System Automation</span>
+                            <span class="bg-[#a6e3a1]/10 text-[#a6e3a1] text-xs font-bold px-3 py-1 rounded-sm">CLI Integration</span>
+                        </div>
+                    </div>
+                </article>
+
             </div>
         </section>
         
