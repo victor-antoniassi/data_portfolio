@@ -125,7 +125,7 @@
                 Chinook Sales Simulator (D-1 Data Generator)
             </a>
             <p class="text-[#cdd6f4] leading-relaxed mt-4">
-                A synthetic sales data generator for the Chinook database, designed to simulate realistic daily (D-1) transactions for data engineering practice.
+                Turns the static Chinook dataset into a living, chaotic OLTP simulator. It generates not just new sales (INSERTs), but also simulates data corrections (UPDATEs) and cancellations (DELETEs), creating a real-world data source for testing advanced pipelines (CDC, SCD Type 2).
             </p>
         </section>
 
@@ -448,7 +448,7 @@
                             <a href="https://github.com/victor-antoniassi/day-1_sales_data_generator" target="_blank">2. Chinook Sales Simulator</a>
                         </h3>
                     </header>
-                    <p class="text-[#cdd6f4] mb-4">A synthetic D-1 sales data generator for the Chinook database, simulating realistic daily transactions for data engineering practice.</p>
+                    <p class="text-[#cdd6f4] mb-4">Turns the static Chinook dataset into a living, chaotic OLTP simulator. It generates not just new sales (INSERTs), but also simulates data corrections (UPDATEs) and cancellations (DELETEs), creating a real-world data source for testing advanced pipelines (CDC, SCD Type 2).</p>
                     
                     <div class="mb-4">
                         <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
@@ -465,10 +465,10 @@
                             Features
                         </h4>
                         <ul class="list-disc list-inside text-[#cdd6f4] text-sm space-y-1">
-                            <li>Generates D-1 (yesterday's) synthetic sales</li>
-                            <li>Ensures data integrity via single transaction</li>
-                            <li>Connects securely to Neon DB using `neonctl`</li>
-                            <li>Concurrent-safe ID generation (PostgreSQL Sequences)</li>
+                            <li>Simulates the full data lifecycle: INSERT, UPDATE, and DELETE</li>
+                            <li>Models UPDATEs/DELETEs as late-arriving changes within a 90-day window</li>
+                            <li>Ensures ACID compliance (all-or-nothing) for each D-1 batch.</li>
+                            <li>Includes a verification script to audit simulation logs against the DB state.</li>
                         </ul>
                     </div>
 
