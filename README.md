@@ -5,7 +5,7 @@ Welcome to my data portfolio! I'm a data professional with experience in buildin
 ## 🚀 Latest Project
 **[Chinook Sales Simulator (D-1 Data Generator)](#2-chinook-sales-simulator)**
 
-A synthetic sales data generator for the Chinook database, designed to simulate realistic daily (D-1) transactions for data engineering practice.
+Turns the static Chinook dataset into a living, chaotic OLTP simulator. It generates not just new sales (INSERTs), but also simulates data corrections (UPDATEs) and cancellations (DELETEs), creating a real-world data source for testing advanced pipelines (CDC, SCD Type 2).
 
 ## 🗂️ Technical Assessment Projects
 Projects developed as part of technical assessment processes, demonstrating comprehensive problem-solving abilities and technical skills.
@@ -84,19 +84,8 @@ An EL (Extract, Load) pipeline that fetches market data (price, volume, market c
 A synthetic D-1 sales data generator for the Chinook database, simulating realistic daily transactions for data engineering practice.
 
 **Features**
-- Generates D-1 (yesterday's) synthetic sales
-- Ensures data integrity via single transaction
-- Connects securely to Neon DB using `neonctl`
-- Concurrent-safe ID generation (PostgreSQL Sequences)
+- Simulates the full data lifecycle: INSERT, UPDATE, and DELETE.
+- Models UPDATEs/DELETEs as late-arriving changes within a 90-day window.
+- Ensures ACID compliance (all-or-nothing) for each D-1 batch.
+- Includes a verification script to audit simulation logs against the DB state.
 
-**Tech Stack**
-- Python
-- PostgreSQL
-- Neon
-- uv
-
-**Skills Applied**
-- Data Generation
-- SQL Functions
-- System Automation
-- CLI Integration
