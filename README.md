@@ -4,7 +4,7 @@ Welcome to my data portfolio! I'm a data professional with experience in buildin
 
 ## 🚀 Latest Project
 
-### [Postgres to Databricks CDC Pipeline](#2-chinook-sales-simulator)
+### [Postgres to Databricks CDC Pipeline](#3-postgres-to-databricks-cdc-pipeline)
 A high-performance Data Ingestion Project built with the Python dlt library. It is designed to move data from PostgreSQL to Databricks using CDC (Change Data Capture) for efficient synchronization.
 Orchestrated natively by Databricks Lakeflow Jobs, this project serves as a robust blueprint for enterprise data replication.
 
