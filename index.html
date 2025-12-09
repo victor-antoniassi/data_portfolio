@@ -4,37 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Victor Antoniassi | Data Engineer & Analytics Engineer Portfolio</title>
-    <!-- 1. Load Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- 2. Load JetBrains Mono font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-    <!-- 3. Add Devicon icon library -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 
-    <!-- 4. Apply base font and Catppuccin colors -->
     <style>
         body {
             font-family: 'JetBrains Mono', monospace;
         }
     </style>
 </head>
-<!-- Catppuccin Mocha base colors -->
 <body class="bg-[#11111b] text-[#cdd6f4] antialiased">
 
-    <!-- Main Container -->
     <main class="container mx-auto max-w-4xl px-4 py-12 md:py-20">
 
-        <!-- Header -->
         <header class="flex flex-col md:flex-row md:items-center justify-between mb-12">
             <div>
                 <h1 class="text-4xl md:text-5xl font-bold text-[#f5c2e7]">Data Engineering Portfolio</h1>
                 <p class="text-xl text-[#a6adc8] mt-2">Data Engineering, BI & Analytics Projects</p>
 
-                <!-- Contact Links -->
                 <div class="flex flex-wrap gap-4 mt-4">
                     <a href="https://antoniassi.omg.lol/" target="_blank" rel="noopener noreferrer" class="flex items-center text-[#89b4fa] hover:text-[#b4befe] transition-colors" title="Profile">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -90,10 +82,8 @@
             </div>
         </header>
 
-        <!-- "About" Section -->
         <section class="bg-[#181825] p-8 rounded-md shadow-md mb-12">
             <h2 class="text-3xl font-bold text-[#f5c2e7] mb-4 flex items-center">
-                <!-- Tabler Icon: user-circle -->
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-3 text-[#f5c2e7]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                    <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
@@ -109,10 +99,8 @@
             </p>
         </section>
 
-        <!-- "Latest Project" Section -->
         <section class="bg-[#181825] p-8 rounded-md shadow-md mb-12">
             <h2 class="text-3xl font-bold text-[#f5c2e7] mb-4 flex items-center">
-                <!-- Tabler Icon: rocket -->
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-3 text-[#f5c2e7]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                    <path d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3"></path>
@@ -121,18 +109,16 @@
                 </svg>
                 Latest Project
             </h2>
-            <a href="#project-chinook-simulator" class="text-2xl font-bold text-[#89b4fa] hover:underline">
-                Chinook Sales Simulator (D-1 Data Generator)
+            <a href="#project-postgres-cdc" class="text-2xl font-bold text-[#89b4fa] hover:underline">
+                Postgres to Databricks CDC Pipeline
             </a>
             <p class="text-[#cdd6f4] leading-relaxed mt-4">
-                Turns the static Chinook dataset into a living, chaotic OLTP simulator. It generates not just new sales (INSERTs), but also simulates data corrections (UPDATEs) and cancellations (DELETEs), creating a real-world data source for testing advanced pipelines (CDC, SCD Type 2).
+                A high-performance Data Ingestion Project built with the Python dlt library. It is designed to move data from PostgreSQL to Databricks using CDC (Change Data Capture) for efficient synchronization. Orchestrated natively by Databricks Lakeflow Jobs, this project serves as a robust blueprint for enterprise data replication.
             </p>
         </section>
 
-        <!-- "Technical Assessment Projects" Section -->
         <section class="mb-12">
             <h2 class="text-3xl font-bold text-[#f5c2e7] mb-6 flex items-center">
-                <!-- Tabler Icon: briefcase -->
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-3 text-[#f5c2e7]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                    <path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path>
@@ -145,14 +131,12 @@
             <p class="text-[#a6adc8] mb-6">Projects developed as part of technical assessment processes, demonstrating comprehensive problem-solving abilities and technical skills.</p>
             
             <div class="space-y-8">
-                <!-- Project Card 1 -->
                 <article class="bg-[#181825] p-6 rounded-md shadow-md">
                     <header class="mb-4">
                         <h3 class="text-2xl font-bold text-[#89b4fa] hover:underline">
                             <a href="https://github.com/victor-antoniassi/junior_data_analyst_test_01" target="_blank">1. Video Game Sales</a>
                         </h3>
                         <p class="text-sm text-[#a6adc8] mt-1 flex items-center">
-                            <!-- Tabler Icon: calendar-event -->
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                <path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
@@ -168,7 +152,6 @@
                     
                     <div class="mb-4">
                         <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
-                            <!-- Tabler Icon: list-check -->
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                <path d="M3.5 5.5l1.5 1.5l2.5 -2.5"></path>
@@ -191,7 +174,6 @@
 
                     <div class="mb-4">
                         <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
-                            <!-- Tabler Icon: tool -->
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                <path d="M7 10l-4 4l4 4l4 -4l-4 -4z"></path>
@@ -223,7 +205,6 @@
                     
                     <div>
                         <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
-                            <!-- Tabler Icon: schema -->
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                <path d="M5 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
@@ -247,14 +228,12 @@
                     </div>
                 </article>
 
-                <!-- Project Card 2 -->
                 <article class="bg-[#181825] p-6 rounded-md shadow-md">
                     <header class="mb-4">
                         <h3 class="text-2xl font-bold text-[#89b4fa] hover:underline">
                             <a href="https://github.com/victor-antoniassi/junior_analytics_engineer_test_01" target="_blank">2. School Supplies Market</a>
                         </h3>
                         <p class="text-sm text-[#a6adc8] mt-1 flex items-center">
-                            <!-- Tabler Icon: calendar-event -->
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                <path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
@@ -270,7 +249,6 @@
                     
                     <div class="mb-4">
                         <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
-                            <!-- Tabler Icon: list-check -->
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                <path d="M3.5 5.5l1.5 1.5l2.5 -2.5"></path>
@@ -291,7 +269,6 @@
 
                     <div class="mb-4">
                         <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
-                            <!-- Tabler Icon: tool -->
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                <path d="M7 10l-4 4l4 4l4 -4l-4 -4z"></path>
@@ -319,7 +296,6 @@
                     
                     <div>
                         <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
-                            <!-- Tabler Icon: schema -->
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                <path d="M5 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
@@ -345,10 +321,8 @@
             </div>
         </section>
 
-        <!-- "Code Snippets & Practice Projects" Section -->
         <section class="mb-12">
             <h2 class="text-3xl font-bold text-[#f5c2e7] mb-6 flex items-center">
-                <!-- Tabler Icon: code-dots -->
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-3 text-[#f5c2e7]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                    <path d="M15 12h.01"></path>
@@ -362,7 +336,6 @@
             <p class="text-[#a6adc8] mb-6">Smaller-scale projects and code examples showcasing specific technical skills and tools implementation.</p>
 
             <div class="space-y-8">
-                <!-- Project Card 1 -->
                 <article class="bg-[#181825] p-6 rounded-md shadow-md">
                     <header class="mb-4">
                         <h3 class="text-2xl font-bold text-[#89b4fa] hover:underline">
@@ -373,7 +346,6 @@
                     
                     <div class="mb-4">
                         <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
-                            <!-- Tabler Icon: list-check -->
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                <path d="M3.5 5.5l1.5 1.5l2.5 -2.5"></path>
@@ -394,7 +366,6 @@
 
                     <div class="mb-4">
                         <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
-                            <!-- Tabler Icon: tool -->
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                <path d="M7 10l-4 4l4 4l4 -4l-4 -4z"></path>
@@ -418,7 +389,6 @@
                     
                     <div>
                         <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
-                            <!-- Tabler Icon: schema -->
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                <path d="M5 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
@@ -441,8 +411,7 @@
                     </div>
                 </article>
 
-                <!-- Project Card 2 (NEW) -->
-                <article id="project-chinook-simulator" class="bg-[#181825] p-6 rounded-md shadow-md">
+                <article class="bg-[#181825] p-6 rounded-md shadow-md">
                     <header class="mb-4">
                         <h3 class="text-2xl font-bold text-[#89b4fa] hover:underline">
                             <a href="https://github.com/victor-antoniassi/day-1_sales_data_generator" target="_blank">2. Chinook Sales Simulator</a>
@@ -452,7 +421,6 @@
                     
                     <div class="mb-4">
                         <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
-                            <!-- Tabler Icon: list-check -->
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                <path d="M3.5 5.5l1.5 1.5l2.5 -2.5"></path>
@@ -474,7 +442,6 @@
 
                     <div class="mb-4">
                         <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
-                            <!-- Tabler Icon: tool -->
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                <path d="M7 10l-4 4l4 4l4 -4l-4 -4z"></path>
@@ -498,7 +465,6 @@
                     
                     <div>
                         <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
-                            <!-- Tabler Icon: schema -->
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                <path d="M5 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
@@ -518,6 +484,82 @@
                             <span class="bg-[#a6e3a1]/10 text-[#a6e3a1] text-xs font-bold px-3 py-1 rounded-sm">SQL Functions</span>
                             <span class="bg-[#a6e3a1]/10 text-[#a6e3a1] text-xs font-bold px-3 py-1 rounded-sm">System Automation</span>
                             <span class="bg-[#a6e3a1]/10 text-[#a6e3a1] text-xs font-bold px-3 py-1 rounded-sm">CLI Integration</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article id="project-postgres-cdc" class="bg-[#181825] p-6 rounded-md shadow-md">
+                    <header class="mb-4">
+                        <h3 class="text-2xl font-bold text-[#89b4fa] hover:underline">
+                            <a href="https://github.com/victor-antoniassi/postgres-to-databricks-cdc/" target="_blank">3. Postgres to Databricks CDC Pipeline</a>
+                        </h3>
+                    </header>
+                    <p class="text-[#cdd6f4] mb-4">A high-performance Data Ingestion Project built with the Python dlt library, moving data from PostgreSQL to Databricks using CDC for efficient synchronization.</p>
+                    
+                    <div class="mb-4">
+                        <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                               <path d="M3.5 5.5l1.5 1.5l2.5 -2.5"></path>
+                               <path d="M3.5 11.5l1.5 1.5l2.5 -2.5"></path>
+                               <path d="M3.5 17.5l1.5 1.5l2.5 -2.5"></path>
+                               <path d="M11 6l9 0"></path>
+                               <path d="M11 12l9 0"></path>
+                               <path d="M11 18l9 0"></path>
+                            </svg>
+                            Features
+                        </h4>
+                        <ul class="list-disc list-inside text-[#cdd6f4] text-sm space-y-1">
+                            <li>High-performance ingestion using Python dlt</li>
+                            <li>Change Data Capture (CDC) synchronization</li>
+                            <li>PostgreSQL to Databricks replication</li>
+                            <li>Orchestration via Databricks Lakeflow Jobs</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-4">
+                        <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                               <path d="M7 10l-4 4l4 4l4 -4l-4 -4z"></path>
+                               <path d="M17 4l-4 4l4 4l4 -4l-4 -4z"></path>
+                               <path d="M21 10l-4 4l4 4l4 -4l-4 -4z"></path>
+                               <path d="M10 7l-4 4l4 4l4 -4l-4 -4z"></path>
+                            </svg>
+                            Tech Stack
+                        </h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="flex items-center bg-[#89b4fa]/10 text-[#89b4fa] text-xs font-bold px-3 py-1 rounded-sm">
+                                <i class="devicon-python-plain text-lg align-middle mr-1.5"></i>Python
+                            </span>
+                            <span class="flex items-center bg-[#89b4fa]/10 text-[#89b4fa] text-xs font-bold px-3 py-1 rounded-sm">dlt</span>
+                            <span class="flex items-center bg-[#89b4fa]/10 text-[#89b4fa] text-xs font-bold px-3 py-1 rounded-sm">
+                                <i class="devicon-postgresql-plain text-lg align-middle mr-1.5"></i>PostgreSQL
+                            </span>
+                            <span class="flex items-center bg-[#89b4fa]/10 text-[#89b4fa] text-xs font-bold px-3 py-1 rounded-sm">Databricks</span>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-bold text-[#f5c2e7] mb-2 flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                               <path d="M5 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                               <path d="M19 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                               <path d="M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                               <path d="M19 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                               <path d="M5 7l0 10"></path>
+                               <path d="M19 7l0 10"></path>
+                               <path d="M7 5l10 0"></path>
+                               <path d="M7 19l10 0"></path>
+                               <path d="M9 12l0 2.5m2 0l0 2.5m2 0l0 -2.5m-2 -2.5l0 -2.5m-2 0l-2 0m6 0l2 0"></path>
+                            </svg>
+                            Skills Applied
+                        </h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-[#a6e3a1]/10 text-[#a6e3a1] text-xs font-bold px-3 py-1 rounded-sm">CDC / Data Replication</span>
+                            <span class="bg-[#a6e3a1]/10 text-[#a6e3a1] text-xs font-bold px-3 py-1 rounded-sm">Data Ingestion</span>
+                            <span class="bg-[#a6e3a1]/10 text-[#a6e3a1] text-xs font-bold px-3 py-1 rounded-sm">Lakeflow Orchestration</span>
                         </div>
                     </div>
                 </article>
