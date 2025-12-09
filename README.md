@@ -3,9 +3,10 @@
 Welcome to my data portfolio! I'm a data professional with experience in building data pipelines, data warehousing, data reporting and analytics solutions. This repository showcases some (but not all) of my knowledge in Business Intelligence, Data Analysis, and Data Engineering.
 
 ## 🚀 Latest Project
-**[Chinook Sales Simulator (D-1 Data Generator)](#2-chinook-sales-simulator)**
 
-Turns the static Chinook dataset into a living, chaotic OLTP simulator. It generates not just new sales (INSERTs), but also simulates data corrections (UPDATEs) and cancellations (DELETEs), creating a real-world data source for testing advanced pipelines (CDC, SCD Type 2).
+### [Postgres to Databricks CDC Pipeline](#2-chinook-sales-simulator)
+A high-performance Data Ingestion Project built with the Python dlt library. It is designed to move data from PostgreSQL to Databricks using CDC (Change Data Capture) for efficient synchronization.
+Orchestrated natively by Databricks Lakeflow Jobs, this project serves as a robust blueprint for enterprise data replication.
 
 ## 🗂️ Technical Assessment Projects
 Projects developed as part of technical assessment processes, demonstrating comprehensive problem-solving abilities and technical skills.
@@ -89,3 +90,6 @@ A synthetic D-1 sales data generator for the Chinook database, simulating realis
 - Ensures ACID compliance (all-or-nothing) for each D-1 batch.
 - Includes a verification script to audit simulation logs against the DB state.
 
+### 3. [Postgres to Databricks CDC Pipeline](https://github.com/victor-antoniassi/postgres-to-databricks-cdc/)
+A high-performance Data Ingestion Project built with the Python dlt library. It is designed to move data from PostgreSQL to Databricks using CDC (Change Data Capture) for efficient synchronization.
+Orchestrated natively by Databricks Lakeflow Jobs, this project serves as a robust blueprint for enterprise data replication.
